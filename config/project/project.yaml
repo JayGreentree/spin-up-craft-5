@@ -1,4 +1,4 @@
-dateModified: 1707479472
+dateModified: 1711133606
 email:
   fromEmail: info@nystudio107.com
   fromName: 'Spin Up Craft'
@@ -7,13 +7,35 @@ email:
   transportSettings:
     command: '/usr/sbin/sendmail -bs'
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
+fs:
+  user:
+    hasUrls: true
+    name: user
+    settings:
+      path: '@webroot/assets/images/users'
+    type: craft\fs\Local
+    url: /assets/images/users/
+  video:
+    hasUrls: true
+    name: video
+    settings:
+      path: '@webroot/assets/video'
+    type: craft\fs\Local
+    url: /assets/video/
 meta:
   __names__:
     0d89c679-f6f5-42ae-8341-4bea917c6af7: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    0daebbbd-b8af-46c7-bef4-490a7977ecf1: Pages # Pages
+    3bf81eca-a4e3-44da-add4-ee22c3d5cba0: Video # Video
+    4e491a20-bdd5-42bf-97c9-b2afc09a2cad: Live # Live
+    12f5b1a2-948e-4b22-ba84-42a000915eb4: Pages # Pages
+    040da766-9122-4e00-bacc-8490dfa562f3: Homepage # Homepage
+    97f61ad0-3398-401c-963f-82715b7eb871: 'Public Schema' # Public Schema
+    6540811f-5511-4b54-b954-fa105ac006d2: Home # Home
+    c6e31bbf-e584-4e8d-8046-68d353c3f301: 'Page Content' # Page Content
+    d7264e09-6da6-4666-830b-afa069a7a625: Live # Live
+    d568839f-77a7-400e-acb3-87a6edb04bf0: User # User
+    e5364dfa-e300-4166-8f52-2a93d86a0feb: Members # Members
     f255ef6d-0c55-4bdc-9ced-f610bbb3bed6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
     f200013a-96be-4073-8522-84e1574099c7: Simple # Simple
 plugins:
@@ -21,10 +43,26 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  cp-css:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      additionalCss: ".global-sidebar {\r\n    background-color: #013852;\r\n    color:white;\r\n}"
+      cacheBusting: true
+      cssFile: ''
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
 system:
   edition: pro
   live: true
   name: $CRAFT_SITE_NAME
   retryDuration: null
-  schemaVersion: 5.0.0.19
+  schemaVersion: 5.0.0.20
   timeZone: America/Los_Angeles

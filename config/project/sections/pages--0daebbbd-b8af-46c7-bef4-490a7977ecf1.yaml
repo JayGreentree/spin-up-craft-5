@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 12f5b1a2-948e-4b22-ba84-42a000915eb4 # Pages
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f255ef6d-0c55-4bdc-9ced-f610bbb3bed6: # $CRAFT_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: ebd0b1b1-0b31-4c45-8f3f-59bf2f9c9c03
+type: structure

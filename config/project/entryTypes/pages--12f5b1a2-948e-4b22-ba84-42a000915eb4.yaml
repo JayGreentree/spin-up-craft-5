@@ -1,0 +1,65 @@
+color: amber
+fieldLayouts:
+  c59cd244-67f6-4e92-a956-93e03689c8dd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 87eaa77f-56bf-47c0-8352-22274d871f4f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c6e31bbf-e584-4e8d-8046-68d353c3f301 # Page Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc2db7e4-3ffd-4d65-bbd9-0c692a8fc96a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 06ec385e-bfdd-44f2-bc48-171ce9690b55
+        userCondition: null
+handle: pages
+hasTitleField: true
+icon: page
+name: Pages
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
