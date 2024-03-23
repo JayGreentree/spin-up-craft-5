@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: c6e31bbf-e584-4e8d-8046-68d353c3f301 # Page Content
+            fieldUid: 80a4083d-fb18-41a9-9b67-0b3c3b00cef5 # Page Content
             handle: null
             includeInCards: false
             instructions: null
@@ -45,7 +45,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3a17a48d-46ae-490b-bcc7-4d5de14813a7
+            uid: 9973761c-222f-49bc-a58a-9b7b3939f5ef
             userCondition: null
             warning: null
             width: 100

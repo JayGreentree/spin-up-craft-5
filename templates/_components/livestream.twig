@@ -4,7 +4,7 @@
 <div sprig s-trigger="every 30s" class="container {{ live ? '' : 'hide' }}">
   <div class="row">
     <div class="col">
-      {{ craft.youtubelive.embedStream() }}
+      {#{{ craft.youtubelive.embedStream() }}#}
     </div>
     <div class="col">
 
@@ -21,7 +21,7 @@
 </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="chat" role="tabpanel" aria-labelledby="chat-tab">
-    {{ craft.youtubelive.embedChat() }}
+    {#{{ craft.youtubelive.embedChat() }}#}
   </div>
   <div class="tab-pane fade" id="notes" role="tabpanel" aria-labelledby="notes-tab">
   

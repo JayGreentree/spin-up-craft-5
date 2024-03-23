@@ -2,20 +2,19 @@ columnSuffix: null
 handle: pageContent
 instructions: null
 name: 'Page Content'
-searchable: false
+searchable: true
 settings:
   availableTransforms: ''
-  availableVolumes: ''
-  ckeConfig: f200013a-96be-4073-8522-84e1574099c7 # Simple
+  availableVolumes: '*'
+  ckeConfig: null
+  createButtonLabel: null
   defaultTransform: null
-  enableSourceEditingForNonAdmins: true
-  entryTypes:
-    - 040da766-9122-4e00-bacc-8490dfa562f3 # Homepage
+  enableSourceEditingForNonAdmins: false
   purifierConfig: null
-  purifyHtml: false
+  purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  showWordCount: true
+  showWordCount: false
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

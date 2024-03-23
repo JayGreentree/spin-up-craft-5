@@ -1,6 +1,5 @@
-color: red
 fieldLayouts:
-  7701d0cf-dbdd-4910-910b-777082f7707c:
+  bf7802f3-4acb-46a1-9c77-c1563a3fa67d:
     tabs:
       -
         elementCondition: null
@@ -29,22 +28,13 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: ccbc1085-08a7-4493-b85d-84f8e6eddfc3
+            type: craft\fieldlayoutelements\TitleField
+            uid: d118df6b-6ef7-43b7-ac4d-97f53d1e00e8
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 6a193e81-87f0-40bf-a5a0-4a76a2920b18
+        uid: 9eaeb2b3-04ff-4da8-93aa-f58499afac50
         userCondition: null
-handle: live
-hasTitleField: true
-icon: signal-stream
-name: Live
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: ''
-titleTranslationKeyFormat: null
-titleTranslationMethod: site
+handle: tags
+name: Tags

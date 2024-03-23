@@ -1,4 +1,25 @@
-dateModified: 1711133606
+dateModified: 1711226939
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      defaultSort:
+        - id
+        - asc
+      disabled: false
+      key: singles
+      tableAttributes:
+        - link
+        - section
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      key: 'section:0daebbbd-b8af-46c7-bef4-490a7977ecf1' # Pages
+      type: native
 email:
   fromEmail: info@nystudio107.com
   fromName: 'Spin Up Craft'
@@ -28,11 +49,13 @@ meta:
     0daebbbd-b8af-46c7-bef4-490a7977ecf1: Pages # Pages
     3bf81eca-a4e3-44da-add4-ee22c3d5cba0: Video # Video
     4e491a20-bdd5-42bf-97c9-b2afc09a2cad: Live # Live
+    5c45b6ee-b9d6-459e-8ece-f46765ca80d3: Tags # Tags
     12f5b1a2-948e-4b22-ba84-42a000915eb4: Pages # Pages
     040da766-9122-4e00-bacc-8490dfa562f3: Homepage # Homepage
+    80a4083d-fb18-41a9-9b67-0b3c3b00cef5: 'Page Content' # Page Content
     97f61ad0-3398-401c-963f-82715b7eb871: 'Public Schema' # Public Schema
     6540811f-5511-4b54-b954-fa105ac006d2: Home # Home
-    c6e31bbf-e584-4e8d-8046-68d353c3f301: 'Page Content' # Page Content
+    b76f4401-c29d-4b35-aeaf-027a0f5fdf12: 'Blog Categories' # Blog Categories
     d7264e09-6da6-4666-830b-afa069a7a625: Live # Live
     d568839f-77a7-400e-acb3-87a6edb04bf0: User # User
     e5364dfa-e300-4166-8f52-2a93d86a0feb: Members # Members
@@ -55,6 +78,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   sprig:
     edition: standard
     enabled: true

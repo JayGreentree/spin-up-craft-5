@@ -1,8 +1,8 @@
 allowPublicRegistration: true
 deactivateByDefault: false
-defaultGroup: ''
+defaultGroup: e5364dfa-e300-4166-8f52-2a93d86a0feb # Members
 photoSubpath: null
-photoVolumeUid: null
+photoVolumeUid: d568839f-77a7-400e-acb3-87a6edb04bf0 # User
 require2fa: false
 requireEmailVerification: true
-validateOnPublicRegistration: false
+validateOnPublicRegistration: true
